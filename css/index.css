@@ -1,0 +1,79 @@
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0%;
+    width: 100%;
+}
+
+header{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url("../images/chambredeco.jpg");
+    z-index: 2;
+}
+
+#boutons{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 1%;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+    width: 100%;
+}
+
+#pasFond{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 2;
+    width: 100%;
+}
+
+.image{
+    height: 210px;
+    width: 320px;
+}
+
+#images{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    align-items: baseline;
+}
+
+#infos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    align-items: baseline;
+}
+
+#fond{
+    background-image: url("../images/fond.jpg");
+    z-index: 1;
+    filter: blur(8px);
+    opacity: 0.9;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background-size: 100%;
+    top: 0%;
+}
+
+h1{
+    text-decoration: underline;
+}

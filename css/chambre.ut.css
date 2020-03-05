@@ -1,0 +1,98 @@
+#fond{
+    z-index: 1;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    filter: blur(8px);
+    opacity: 0.9;
+}
+
+#gris{
+    z-index: 2;
+    height: 100%;
+    width: 65%;
+    position: absolute;
+    opacity: 0.5;
+}
+
+#rond{
+    z-index: 3;
+    position: absolute;
+    border-radius: 50%;
+    height: 70%;
+    width: 55%;
+    top: 5%;
+}
+
+#bouton{
+    z-index: 3;
+    position: absolute;
+    color: white;
+    background-color: black;
+    padding: 25px;
+    padding-left: 70px;
+    padding-right: 70px;
+    font-size: 30px;
+    border-radius: 50px;
+    border: none;
+    bottom: 5%;
+    right: 38%;
+}
+
+#carreG{
+    height: 100%;
+    width: 65%;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#index{
+    z-index: 3;
+    position: absolute;
+    height: 11%;
+    width: 5.5%;
+    border-radius: 50%;
+}
+
+#droite{
+    height: 100%;
+    width: 34.5%;
+    right: 0px;
+    z-index: 4;
+    position: absolute;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#description{
+    position: absolute;
+    width: 90%;
+    font-size: 17.5px;
+}
+
+h1{
+    position: absolute;
+    top: 7%;
+    width: 100%;
+}
+
+#prix{
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    font-size: 30px;
+}
+
+*{
+    font-family: 'IM Fell Great Primer SC', serif;
+}
+
+body{
+    overflow-x: hidden;
+    margin: 0px;
+}
